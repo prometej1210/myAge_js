@@ -1,0 +1,103 @@
+#div {
+	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	margin-left: -210px;
+  	margin-top: -267px;
+	width:  420px;
+	height: 534px;
+	text-align: center;
+	border-radius: 10px;
+	background: white;
+	background-image: url(img/list.png);
+	font-family: Georgia;
+}
+
+form {
+	padding: 60px 40px 60px 40px;
+}
+
+h1 {
+	font-size: 24px;
+	color: #0F0000;
+}
+
+input {
+outline:none;
+border-width: 1px;
+border-color: rgba(15,0,0, 0.25);
+border-radius: 10px;	
+background-color: rgba(0,0,0,0);
+font-size: 24px;
+font-weight: bold;
+color: #0F0000;
+text-align: center;
+}
+
+select {
+outline:none;
+border-width: 1px;
+border-color: rgba(15,0,0, 0.25);
+border-radius: 10px;
+width: 110px;	
+background-color: rgba(0,0,0,0);
+font-size: 18px;
+font-weight: bold;
+color: #0F0000;
+}
+
+p {
+font-size: 4px;
+}
+
+#year {
+width: 75px;
+}
+
+#day {
+width: 45px;
+}
+
+#start {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(255,255,255,.6);
+  text-shadow: 1px 1px rgba(0,0,0,.3);
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 15px;
+  background: rgb(255,40,0);
+  box-shadow:
+   inset 0 0 3px 1px rgba(0,0,0,.8),
+   inset rgba(0,0,0,.3) -5px -5px 8px 5px,
+   inset rgba(255,255,255,.5) 5px 5px 8px 5px,
+   1px 1px 1px rgba(255,255,255,.1),
+   -2px -2px 5px rgba(0,0,0,.5);
+  transition: .2s;
+}
+
+#start:hover {
+  color: rgba(255,255,255,.9);
+  background: rgb(255,40,0);
+}
+
+#start:active {
+  background: rgb(255,36,0);
+  box-shadow:
+   inset 0 0 5px 3px rgba(0,0,0,.8),
+   inset rgba(0,0,0,.3) -5px -5px 8px 5px,
+   inset rgba(255,255,255,.5) 5px 5px 8px 5px,
+   1px 1px 1px rgba(255,255,255,.2),
+   -2px -2px 5px rgba(0,0,0,.5);
+}
+
+.text {
+outline:none;
+border: none;
+width: 320px;
+background-color: rgba(0,0,0,0);
+font-size: 18px;
+font-style: italic;
+color: #FF0000;	
+}
