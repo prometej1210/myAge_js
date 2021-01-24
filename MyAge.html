@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Расчитать свой возраст</title>
+  <link rel="stylesheet" href="MyAge.css">
+  <script src="MyAge.js"></script>
+</head>
+<body>
+<div id = "div">
+	<form name="form">   
+	    <h1>Узнай свой текущий возраст:</h1>
+	    	<b>Введите год рождения: </b>
+	        <p><input type = "number" id = "year" name = "years" step="1" min="0" max="2030" required></p>
+	    	<b>Выберите месяц рождения: </b>
+	    <p>
+	    	<select id="mounths" name = "mounths">
+	    		<option value = "0">--</option>
+	            <option value = "1">Январь</option>
+	            <option value = "2">Февраль</option>
+	            <option value = "3">Март</option>
+	            <option value = "4">Апрель</option>
+	            <option value = "5">Май</option>
+	            <option value = "6">Июнь</option>
+	            <option value = "7">Июль</option>
+	            <option value = "8">Август</option>
+	            <option value = "9">Сентябрь</option>
+	            <option value = "10">Октябрь</option>
+	            <option value = "11">Ноябрь</option>
+	            <option value = "12">Декабрь</option>
+	        </select>
+	    </p>
+	        <b>Введите день своего рождения: </b>
+	    	<p>
+	    		<input type = "number" id = "day" name = "days" step="1" min="0" max="31" required>
+	    	</p>
+	    	<br>
+	    	<p><input type = "button" id = "start" value = "Ваш возраст:" onclick = "MyAge()"></p>	       
+	        <p><input type =  "text" class = "text" name = "result" ></p>
+	        <p><input type =  "text" class = "text" name = "text" ></p>
+	</form>
+</div>
+</body>
+</html>
